@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+div.stats{
+    float: left;
+}
+
+h2.reset{
+    color: red;
+}
+
+div.myControls div{
+    width: 50%;
+    float: left;
+}
+
+.mainTitle{
+    text-align: center;
+}
+
+.rpsImage{
+    width: 70%;
+    height: auto;
+}
+
+div.myContainer {
+    width: 100%;
+    overflow: auto;
+}
+
+div.myContainer div {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
